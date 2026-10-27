@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+@source "../../../../packages/ui/src";
+
+@theme {
+  --color-nexus-50: #eef2ff;
+  --color-nexus-200: #c7d2fe;
+  --color-nexus-400: #818cf8;
+  --color-nexus-500: #6366f1;
+  --color-nexus-800: #312e81;
+  --color-nexus-900: #1e1b4b;
+  --color-nexus-950: #0b1020;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@gotn/tools",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@gotn/content-core": "workspace:*",
+    "@gotn/content-schema": "workspace:*",
+    "@gotn/kernel": "workspace:*",
+    "@gotn/meta": "workspace:*",
+    "@gotn/sim": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "typescript": "catalog:"
+  }
+}

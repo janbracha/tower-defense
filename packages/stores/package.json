@@ -1,0 +1,21 @@
+{
+  "name": "@gotn/stores",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@gotn/app": "workspace:*",
+    "@gotn/content-schema": "workspace:*",
+    "@gotn/kernel": "workspace:*",
+    "zustand": "catalog:"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
+}

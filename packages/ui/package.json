@@ -1,0 +1,27 @@
+{
+  "name": "@gotn/ui",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@gotn/content-schema": "workspace:*",
+    "@gotn/kernel": "workspace:*",
+    "@gotn/render": "workspace:*",
+    "@gotn/stores": "workspace:*",
+    "zustand": "catalog:"
+  },
+  "peerDependencies": {
+    "react": "catalog:"
+  },
+  "devDependencies": {
+    "@types/react": "catalog:",
+    "react": "catalog:",
+    "typescript": "catalog:"
+  }
+}

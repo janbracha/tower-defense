@@ -1,0 +1,34 @@
+{
+  "name": "@gotn/web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@gotn/app": "workspace:*",
+    "@gotn/content-core": "workspace:*",
+    "@gotn/content-schema": "workspace:*",
+    "@gotn/infra": "workspace:*",
+    "@gotn/kernel": "workspace:*",
+    "@gotn/render": "workspace:*",
+    "@gotn/sim-host": "workspace:*",
+    "@gotn/stores": "workspace:*",
+    "@gotn/ui": "workspace:*",
+    "next": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "catalog:",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "tailwindcss": "catalog:",
+    "typescript": "catalog:"
+  }
+}

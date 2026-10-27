@@ -1,0 +1,22 @@
+{
+  "name": "@gotn/testkit",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@gotn/app": "workspace:*",
+    "@gotn/content-schema": "workspace:*",
+    "@gotn/kernel": "workspace:*",
+    "@gotn/meta": "workspace:*",
+    "@gotn/sim": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
+}

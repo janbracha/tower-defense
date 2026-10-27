@@ -1,0 +1,5 @@
+docs/
+pnpm-lock.yaml
+.next/
+.turbo/
+node_modules/
